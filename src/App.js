@@ -1,11 +1,13 @@
 
 import './App.css';
 import "bootstrap/dist/css/bootstrap.css";
+import Weather from "./weather";
 
 function App() {
   return (
     <div className="App">
-      <h1> Weather App</h1>
+      
+      <Weather />
       <p>
         <a href="https://github.com/htay-htay-thwe/react-weather-project-2">
           open sourced-code
