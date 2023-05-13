@@ -11,10 +11,7 @@ export default function Weatherinfo(props){
           <div className="row">
             <div className="col-6">
               <p className="degree">
-                <img
-                  src="https://openweathermap.org/img/wn/10d@2x.png"
-                  alt="rainy"
-                />
+                <img src={props.data.icon} alt="weather condition"/>
                 {props.data.temperature}°C
               </p>
             </div>
