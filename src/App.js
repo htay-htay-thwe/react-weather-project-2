@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       
-      <Weather />
+      <Weather cityDefault="New York"/>
       <p>
         <a href="https://github.com/htay-htay-thwe/react-weather-project-2">
           open sourced-code
