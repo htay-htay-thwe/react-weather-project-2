@@ -5,9 +5,11 @@
 }
 .degree{
     font-size: 50px;
+    
 }
 ul{
     list-style-type:none;
+   
 }
 section{
     margin-top: 10px;
@@ -18,4 +20,7 @@ section{
 }
 .descri{
     margin-left: -23px;
+}
+.tem{
+    margin-left: 20px;
 }
